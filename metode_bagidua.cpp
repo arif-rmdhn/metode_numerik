@@ -54,7 +54,8 @@ void cetak_tabel(){
 }
 
 float f(float x){
-    return x*x - 5*x - 6;
+    // return x*x - 5*x - 6;
+    return x*x - 2;
 }
 
 int main(){

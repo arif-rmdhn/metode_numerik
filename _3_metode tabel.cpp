@@ -98,7 +98,6 @@ int main() {
         printf ("tidak ada akar didalam bagian ini");
     }
 }
-
 float fs(float x) {
     float y;
     y = x*x - 5*x - 6;
