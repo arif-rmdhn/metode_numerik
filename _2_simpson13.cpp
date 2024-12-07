@@ -2,7 +2,7 @@
 #include <math.h>
 
 float f(float x){
-    return 1/(1+x);
+    return x*x - 5*x - 6;
 }
 
 int main(){

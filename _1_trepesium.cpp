@@ -4,17 +4,17 @@
 #include <math.h>
 
 float f(float x){
-    return 1/(1+x);
+    return x*x - 5*x - 6;
 }
 
 int main(){
     float sigma = 0, h,I,a,b,n,x;
 
-    printf("Masukkan niali a: ");
+    printf("Masukkan nilai a: ");
     scanf("%f", &a);
-    printf("Masukkan niali b: ");
+    printf("Masukkan nilai b: ");
     scanf("%f", &b);
-    printf("Masukkan niali iterasi: ");
+    printf("Masukkan nilai iterasi: ");
     scanf("%f", &n);
 
     h=(b-a)/n;
